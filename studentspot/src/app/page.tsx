@@ -305,17 +305,17 @@ export default function Landing() {
               <h3 className="font-semibold mb-4">Company</h3>
               <ul className="space-y-2">
                 <li>
-                  <Link href="/about" className="text-muted-foreground hover:text-foreground">
+                  <Link href="/pages/about" className="text-muted-foreground hover:text-foreground">
                     About
                   </Link>
                 </li>
                 <li>
-                  <Link href="/careers" className="text-muted-foreground hover:text-foreground">
+                  <Link href="/pages/Home" className="text-muted-foreground hover:text-foreground">
                     Careers
                   </Link>
                 </li>
                 <li>
-                  <Link href="/press" className="text-muted-foreground hover:text-foreground">
+                  <Link href="/pages/about" className="text-muted-foreground hover:text-foreground">
                     Press
                   </Link>
                 </li>
@@ -367,9 +367,9 @@ export default function Landing() {
             </div>
 
             {/* Social Media Section with Icons */}
-            <div>
-              <h3 className="font-semibold mb-4">Connect</h3>
-              <ul className="space-y-2">
+            <div className="flex flex-col items-center text-center">
+            <h3 className="font-semibold mb-4">Connect</h3>
+              <ul className="space-y-2 ">
                 <li>
                   <a
                     href="https://www.linkedin.com/in/rajkamalprls/"
